@@ -1,0 +1,54 @@
+#wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+#wrapper .todo-section {
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+#wrapper .append-area {
+  background-color: #907259;
+}
+
+#wrapper .doing-area {
+  background-color: #813934;
+}
+
+#wrapper .done-area {
+  background-color: #0086f8;
+}
+
+/*  input form  */
+.append-area input {
+  width: 400px;
+}
+
+/* list & buttons */
+.todo-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-section ul li {
+  border-bottom: 1px dashed #fff;
+  padding: 5px 0;
+}
+
+.todo-section ul li > div {
+  display: flex;
+}
+
+.todo-section ul li > div p {
+  width: 70%;
+}
+
+.todo-section ul li > div button {
+  width: 15%;
+  height: auto;
+}
